@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+body{
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 900px;
+    background:#fff;
+    box-shadow: 0px 2px 20px rgba(0,0,0,.3) ;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.translator_property{
+    border: 1px solid #c7c7c783; 
+}
+.nuv_item{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border-bottom: 1px solid #c7c7c7;
+    padding: 0 20px;
+}
+.nuv_item select{
+    outline: none;
+    border-style: none;
+    padding: 10px 0px;
+    font-size: 17px;
+    font-weight: 500;
+    color:#606060;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+.nuv_item select:hover{
+    color:#111;
+}
+.fa-right-left{
+    font-size: 22px;
+    color: #606060;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+.fa-right-left:hover{
+    color: #111;
+}
+.write_box{
+    display: flex;
+    margin-top: 15px;
+
+}
+.property_from, .property_trans{
+    width: 100%;
+    position: relative;
+}
+.write_box textarea{
+    width: 100%;
+    height: 250px;
+    border-style: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: rgb(59, 97, 105);
+    position: relative;
+}
+.write_box textarea:nth-child(1){
+    border-right: 1px solid #606060;
+}
+.write_box .icons{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.icons .fa-solid{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #ddd;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.icons .fa-solid:hover{
+    background: #606060;
+    color: wheat;
+}
+.code_length{
+    font-size: 18px;
+    color: #606060;
+}
+.fa-copy:hover{
+    font-size:25px;
+    transition: all .3s ease-in-out;
+}
+
