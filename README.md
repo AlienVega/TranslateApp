@@ -1,2 +1,4 @@
 # translateApp
- translateApp with Api
+
+Tüm dillerde çeviri yapılır.
+Çeviriler sesli olarak dinlenebilir.
